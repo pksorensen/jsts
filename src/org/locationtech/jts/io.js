@@ -8,6 +8,7 @@ import GeoJSONWriter from './io/GeoJSONWriter'
 import WKTReader from './io/WKTReader'
 import WKTWriter from './io/WKTWriter'
 import OL3Parser from './io/OL3Parser'
+import GeoJSONParser from './io/GeoJSONParser'
 
 /**
  * @module jsts/io
@@ -37,5 +38,10 @@ export default {
    * @type {WKTWriter}
    * @memberof module:jsts/io
    */
-  WKTWriter
+  WKTWriter,
+   /**
+   * @type {GeoJSONParser}
+   * @memberof module:jsts/io
+   */
+  GeoJSONParser
 }
